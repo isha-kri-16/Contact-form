@@ -1,0 +1,201 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    background-color: #f3ecec;
+    min-height: 100vh;
+    min-width: 100vw;
+}
+
+h1{
+    text-align: center;
+    padding: 20px;
+    font-family: sans-serif;
+}
+
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.form input{
+    width: 700px;
+}
+
+.firstname input{
+    margin-bottom: 20px;
+    padding: 5px ;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.firstname label{
+    font-size: 14px;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+
+.lastname input{
+    margin-bottom: 20px;
+    padding: 5px ;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.lastname label{
+    font-size: 14px;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+
+.email input{
+    margin-bottom: 20px;
+    padding: 5px ;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.email label{
+    font-size: 14px;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+
+.country select{
+    width: 700px;
+    margin-bottom: 20px;
+    padding: 5px ;
+    border-radius: 5px;
+    margin-top: 10px;
+    border: #333;
+}
+
+.country label{
+    font-size: 14px;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+
+.country option{
+    font-size: 14px;
+    font-family: sans-serif;
+    background-color: #777272;
+}
+
+.street input{
+    margin-bottom: 20px;
+    padding: 5px ;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.street label{
+    font-size: 14px;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+
+.city input{
+    margin-bottom: 20px;
+    padding: 5px ;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.city label{
+    font-size: 14px;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+
+.state input{
+    margin-bottom: 20px;
+    padding: 5px ;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.state label{
+    font-size: 14px;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+
+.zip input{
+    margin-bottom: 20px;
+    padding: 5px ;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.zip label{
+    font-size: 14px;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+
+
+.heading{
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.option{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.option input{
+    margin-bottom: 20px;
+    padding: 5px ;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.option label{
+    font-size: 14px;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+
+.notification{
+    margin-top: 10px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.push{
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.sub{
+    color: rgb(130, 131, 132);
+}
+
+.notification ,.input{
+    font-weight: 600;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+button{
+    padding: 10px 25px;
+    border-radius: 5px;
+    background-color: hsl(208, 94%, 50%);
+    color: white;
+    border: none;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 14px;
+    font-family: sans-serif;
+
+}
